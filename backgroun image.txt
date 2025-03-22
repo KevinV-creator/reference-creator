@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stretchable Banner</title>
+ <style>
+ /* Basic reset for margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body, html {
+  height: 100%;
+}
+
+.banner {
+  height: 400px; /* Set the height of the banner */
+  background-image: url('https://images.pexels.com/photos/1029604/pexels-photo-1029604.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); /* Your image URL here */
+  background-size: cover; /* Makes the background image stretch to cover the entire element */
+  background-position: center; /* Centers the image in the banner */
+  color: white; /* White text color for contrast */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+p {
+  font-size: 1.5em;
+}
+
+ </style>
+ 
+</head>
+<body>
+  <div class="banner">
+    <h1>Welcome to My Website</h1>
+    <p>Enjoy your visit!</p>
+  </div>
+</body>
+</html>

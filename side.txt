@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Three-Sided Navigation Bar</title>
+  <style>
+    body {
+      display: flex;
+      min-height: 100vh;
+      margin: 0;
+    }
+
+    /* Container to hold left, right, and main content */
+    .container {
+      display: flex;
+      width: 100%;
+    }
+
+    /* Left sidebar styles */
+    .left-nav {
+      width: 200px;
+      background-color: #333;
+      color: white;
+      padding-top: 20px;
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      text-align: center;
+    }
+
+    .left-nav a {
+      display: block;
+      color: white;
+      padding: 10px;
+      text-decoration: none;
+    }
+
+    .left-nav a:hover {
+      background-color: #575757;
+    }
+
+    /* Right sidebar styles */
+    .right-nav {
+      width: 200px;
+      background-color: #333;
+      color: white;
+      padding-top: 20px;
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      text-align: center;
+    }
+
+    .right-nav a {
+      display: block;
+      color: white;
+      padding: 10px;
+      text-decoration: none;
+    }
+
+    .right-nav a:hover {
+      background-color: #575757;
+    }
+
+    /* Top navigation bar styles */
+    .top-nav {
+      width: 100%;
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 1;
+    }
+
+    .top-nav a {
+      color: white;
+      padding: 10px 20px;
+      text-decoration: none;
+    }
+
+    .top-nav a:hover {
+      background-color: #575757;
+    }
+
+    /* Main content area styles */
+    .main-content {
+      margin-top: 80px;
+      margin-left: 220px;
+      margin-right: 220px;
+      padding: 20px;
+      flex-grow: 1;
+    }
+
+  </style>
+</head>
+<body>
+
+  <!-- Left navigation bar -->
+  <div class="left-nav">
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Contact</a>
+  </div>
+
+  <!-- Right navigation bar -->
+  <div class="right-nav">
+    <a href="#">Login</a>
+    <a href="#">Sign Up</a>
+    <a href="#">Profile</a>
+    <a href="#">Settings</a>
+  </div>
+
+  <!-- Top navigation bar -->
+  <div class="top-nav">
+    <a href="#">Logo</a>
+    <a href="#">Help</a>
+    <a href="#">Support</a>
+  </div>
+
+  <!-- Main content area -->
+  <div class="main-content">
+    <h1>Welcome to the Website</h1>
+    <p>This is the main content area.</p>
+  </div>
+
+</body>
+</html>
