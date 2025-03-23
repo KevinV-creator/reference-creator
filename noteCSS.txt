@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<style>
+
+body{
+margin:0;
+padding:0;
+font-family: sans-serif;
+}
+.nav{
+background-color: gray;
+color: white;
+display:flex;
+justify-content: space-between;
+padding: 0 20px;
+}
+.nav ul{
+display: flex;
+list-style: none;
+}
+.nav ul li{
+ margin-left: 20px;
+}
+
+img{
+width:500px;
+height:300px;
+}
+main{
+ padding:0 20px;
+}
+.container{
+ padding:0 20px;
+ margin-top: 10px;
+ }
+.text {
+float: left;
+margin-right: 30px;
+}
+
+.sidebar{
+            width: 100%; /* Adjust as per requirement */
+            height: 300px; /* Set a fixed height or use responsive units */
+            background-image: url('https://images.squarespace-cdn.com/content/v1/5f2db84743c1761f87232471/1612902505900-WVNB2BH1PQJ86XL9VUNC/16X9+ARTWORK.jpg?format=2500w'); /* Replace with your image */
+            background-size: cover; /* Ensures the image covers the div */
+            background-position: center; /* Centers the image */
+            background-repeat: no-repeat; /* Prevents tiling */
+            display: flex;
+            align-items: center; /* Centers text vertically */
+            justify-content: center; /* Centers text horizontally */
+            color: white; /* Ensures text is visible */
+            font-size: 24px; /* Customize text size */
+}
+
+footer{
+           .position:fixed; /* Sticks the footer to the viewport */
+            bottom: 0; /* Aligns it to the bottom */
+            left: 0;
+            width: 100%; /* Makes it span the entire width */
+            background-color: #333; /* Background color for the footer */
+            color: white; /* Text color for readability */
+            text-align: center; /* Centers the content horizontally */
+            padding: 1px 0; /* Adds vertical padding */
+            font-size: 16px; /* Adjusts text size */
+}
+
+.cards{
+padding: 0 20px;
+display:flex;
+gap:15px;
+flex-wrap: wrap;
+justify-content:center;
+ .text-align: center;
+  
+}
+.card{
+width:300px;
+height:300px;
+border: 2px solid black;
+
+}
+
+</style>
+<body>
+
+<div class="nav">
+<h1>KevinWEB</h1>
+<ul>
+ <li>About</li>
+ <li>Sevices</li>
+ <li>Porfolio</li>
+</ul>
+</div>
+
+<div class="cards">
+<div class="card">card1</div>
+<div class="card">card2</div>
+<div class="card">card3</div>
+</div>
+
+
+<div class="container">
+<img src="https://images.squarespace-cdn.com/content/v1/5f2db84743c1761f87232471/1612902505900-WVNB2BH1PQJ86XL9VUNC/16X9+ARTWORK.jpg?format=2500w" alt="image">
+ <div class="text">
+ <h1> Tilte </h1>
+ <p> Dummy Descrition </p>
+ </div>
+</div>
+
+<div class="container">
+<img src="https://images.squarespace-cdn.com/content/v1/5f2db84743c1761f87232471/1612902505900-WVNB2BH1PQJ86XL9VUNC/16X9+ARTWORK.jpg?format=2500w" alt="image">
+ <div class="text">
+ <h1> Tilte </h1>
+ <p> Dummy Descrition </p>
+ </div>
+</div>
+
+<div class="container">
+<img src="https://images.squarespace-cdn.com/content/v1/5f2db84743c1761f87232471/1612902505900-WVNB2BH1PQJ86XL9VUNC/16X9+ARTWORK.jpg?format=2500w" alt="image">
+ <div class="text">
+ <h1> Tilte </h1>
+ <p> Dummy Descrition </p>
+ </div>
+</div>
+
+<div class="sidebar">
+kevin lajpus
+</div>
+
+
+
+
+
+<footer>
+<h4>kevinlaplus</h4>
+</footer>
+
+
+
+
+</body>
+</html>
+
