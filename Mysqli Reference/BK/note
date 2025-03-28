@@ -1,0 +1,11 @@
+ 
+ add.php
+ header("Location: index.php?new_user=" . urlencode($first_name . ' ' . $last_name)); // Redirect to the main page
+
+index.php
+ <?php
+// Check for a newly added user
+if (isset($_GET['new_user'])) {
+    $new_user = htmlspecialchars($_GET['new_user']);
+    echo "<h1 class='fade-out' style='color: green;'>New user added: $new_user</h1>";
+}
